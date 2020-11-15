@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Economics</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Migration Games</title>
+      <link>/project/modeling-migration/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/project/modeling-migration/</guid>
+      <description>&lt;p&gt;Migration is a difficult topic to study because there is so little data. People tend not to move: an estimated 3% of the world&amp;rsquo;s population ever migrates. And when people do move, they rarely leave forwarding addresses. Despite the proliferation of survey data, talking to people at their homes doesn&amp;rsquo;t tell us much about what happened to the ones who migrated, or why they left. We do know that people move for a variety of reasons, usually as a way of seeking a better life&amp;mdash;higher wages, more education, easier access to healthcare, more freedom, or more opportunity. But we know little about how and why people make that exact decision over whether and when to stay or go.&lt;/p&gt;
+&lt;p&gt;Immobility is puzzling to many economists because it appears that many people might significantly their quality of life by moving. Even small changes in location, across zip codes and neighborhoods, can yield large improvements in a person&amp;rsquo;s safety and economic outcomes. Of course, people have a strong attachment to their homes&amp;mdash;so maybe this is what keeps them staying put? Or is the belief that economists have, that so many people could upgrade their lives by moving, just an illusion? After all, if these moves were really so beneficial, why haven&amp;rsquo;t people already made them?&lt;/p&gt;
+&lt;h1 id=&#34;a-lab-experiment&#34;&gt;A Lab Experiment&lt;/h1&gt;
+&lt;p&gt;To answer these questions I needed an experiment where I could observe migration choices and I could actually know what a person&amp;rsquo;s payoff was to migration, not just guess at it from their observed demographics. I wanted to create a laboratory experiment where I could observe people making migration decision.&lt;/p&gt;
+&lt;p&gt;The structure of a migration decision is simple: it&amp;rsquo;s a sequence of choices we all make on a day-to-day basis of whether to stay or go, and we learn over time whether we&amp;rsquo;ve made the right decision. Recreating this choice in a lab is difficult. Where we choose to live is one of the biggest decisions we ever make in our lives. A laboratory experiment cannot wholly recreate the magnitude of this choice.&lt;/p&gt;
+&lt;p&gt;Yet there are instances where people become hugely dedicated to solving a virtual problem. These are computer and video games, where people play them furiously, competitively&amp;mdash;and not with the expectation of any external reward. I thought about games I played as a kid, like &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Oregon_Trail_%28series%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Oregon Trail&lt;/a&gt;, where I worked hard to guide a family on a historic, cross-continental migration.&lt;/p&gt;
+&lt;p&gt;I decided to design a similar migration video game. However, I wanted to isolate the stay-or-go and where-to-go decision-making process at the root of migration. I didn&amp;rsquo;t want to make a game literally about migration, as I was worried about it falling into the &amp;ldquo;&lt;a href=&#34;https://spectrum.ieee.org/automaton/robotics/humanoids/what-is-the-uncanny-valley&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;uncanny valley&lt;/a&gt;:&amp;rdquo; the more the game is &lt;em&gt;explicitly&lt;/em&gt; about migration, the more obvious it may be to players that they are not actually migrating. Some abstraction was necessary. I also wanted to unmoor players from their prior beliefs. For example, if I show you a map, even of a &lt;a href=&#34;http://tolkiengateway.net/w/images/5/5c/Pauline_Baynes_-_A_Map_of_Middle-earth_%28color%29_2.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fictional land&lt;/a&gt;, some places will look better than others depending on your own preferences.&lt;/p&gt;
+&lt;p&gt;In order to create a game that involved migration choices, but was outside of the uncanny valley, I set the game in outer space. The game involves players captaining a starship, moving it between alien worlds. The concept is outlandish, but also provides a compelling frame for optimal dynamic problem solving that is disconnected from participant&amp;rsquo;s own experiences. When people play this game, they are solving a migration problem, they are moving between worlds finding the one they do the best at.&lt;/p&gt;
+&lt;h1 id=&#34;testing-the-game&#34;&gt;Testing the game&lt;/h1&gt;
+&lt;p&gt;To gather data on decision-making I ran the game in two countries, the United States and Ethiopia. In the United States I ran the game at the University of Wisconsin-Madison&amp;rsquo;s &lt;a href=&#34;http://brite.wisc.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRITE Lab&lt;/a&gt;, and in Ethiopia I ran the game at the &lt;a href=&#34;http://www.bdu.edu.et&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Bahir Dar&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;card-simple&#34;&gt;
+
+  
+    
+
+
+&lt;div class=&#34;article-metadata&#34;&gt;
+
+  
+  
+  
+  
+  &lt;div&gt;
+    
+
+  
+  &lt;span &gt;&lt;a href=&#34;/author/zachary-barnett-howell/&#34;&gt;Zachary Barnett-Howell&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+  
+
+  
+  &lt;span class=&#34;article-date&#34;&gt;
+    
+    
+      
+    
+    August 2020
+  &lt;/span&gt;
+  
+
+  
+  &lt;span class=&#34;middot-divider&#34;&gt;&lt;/span&gt;
+  &lt;span class=&#34;pub-publication&#34;&gt;
+    
+  &lt;/span&gt;
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+&lt;/div&gt;
+
+  
+
+  
+  
+  
+
+  &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
+    &lt;a href=&#34;/publication/migration-games/&#34;&gt;Should I Stay or Should I Go: Microeconomic Determinants of Migration&lt;/a&gt;
+  &lt;/h3&gt;
+
+  
+  &lt;a href=&#34;/publication/migration-games/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;A video game to study how people make economic migration decisions&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-a-caption&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;graphics2&#34; data-caption=&#34;A caption&#34;&gt;
+
+
+  &lt;img src=&#34;graphics2&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    A caption
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-modeling-migration&#34; href=&#34;/project/modeling-migration/modeling-migration/game-graphics-5.png&#34; &gt;
+  &lt;img data-src=&#34;/project/modeling-migration/modeling-migration/game-graphics-5_hue45168e8f4e9e61fcce0ec4077b2f061_1498349_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;296&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-modeling-migration&#34; href=&#34;/project/modeling-migration/modeling-migration/game-graphics-6.png&#34; &gt;
+  &lt;img data-src=&#34;/project/modeling-migration/modeling-migration/game-graphics-6_hu28e1bed55cca5d166f81c315ce8c596c_1424188_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;296&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+  &lt;a data-fancybox=&#34;gallery-modeling-migration&#34; href=&#34;/project/modeling-migration/modeling-migration/graphics2.png&#34; &gt;
+  &lt;img data-src=&#34;/project/modeling-migration/modeling-migration/graphics2_hucdd789574ac4d8ebb008b72f6f640aba_1464816_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;294&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agricultural Risk</title>
+      <link>/project/agricultural-risk/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/agricultural-risk/</guid>
+      <description>&lt;p&gt;Smallholder farmers in low-income countries depend on their crops to generate much of their yearly income and to feed their families. These farmers invest little in new technologies or complementary inputs like fertilizer, and so produce significantly less with their land and labor than those in richer countries. Farmers don&amp;rsquo;t invest because they face numerous agricultural risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and also any investment they made.&lt;/p&gt;
+&lt;p&gt;My work in agriculture is focused on new technologies that help farmers better manage risk. If farmers face fewer losses they should be willing to invest more in their production, leading to a virtuouous cycle of higher yields and higher investment. I specifically work on the crop disease &lt;em&gt;Phytophthora infestans&lt;/em&gt;, the infamous cause of the Irish potato famine, and a constant theat to farmers worldwide.&lt;/p&gt;
+&lt;p&gt;I work with potato farmers in northwestern Bangladesh. Using a system that combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geopgraphic resolution. When the risk of blight is high, we send SMS alerts to farmers telling them to spray their fields to prevent the disease.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>/project/covid-19/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/covid-19/</guid>
+      <description>&lt;p&gt;The COVID-19 pandemic made epidemiology models directly policy-relevant to every government around the world. Given how little is still understood about the characteristics of the disease, models of increasing complexity were necessary to model potential trajectories of coronavirus across different policy scenarios in countries with markedly different demographic structures.&lt;/p&gt;
+&lt;p&gt;My work with epidemiologists is focused on two things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Providing&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Y-RISE</title>
+      <link>/project/y-rise/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/y-rise/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Economics</title>
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
+    
+    <item>
+      <title>No Small Potatoes: Agricultural Risk and Investment under Uncertainty</title>
+      <link>/publication/geopotato/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/geopotato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determinants of Migration: Cotton Strikes and Income Shocks in Mali</title>
+      <link>/publication/mali-migration/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mali-migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Should I Stay or Should I Go: Microeconomic Determinants of Migration</title>
+      <link>/publication/migration-games/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/migration-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poor Countries Need to Think Twice About Social Distancing</title>
+      <link>/publication/foreign-affairs/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/foreign-affairs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The value of social distancing is not equally distributed</title>
+      <link>/publication/cepr/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/cepr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

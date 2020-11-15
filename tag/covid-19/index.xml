@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>covid-19 | Economics</title>
+    <link>/tag/covid-19/</link>
+      <atom:link href="/tag/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <description>covid-19</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>covid-19</title>
+      <link>/tag/covid-19/</link>
+    </image>
+    
+    <item>
+      <title>Poor Countries Need to Think Twice About Social Distancing</title>
+      <link>/publication/foreign-affairs/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/foreign-affairs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The value of social distancing is not equally distributed</title>
+      <link>/publication/cepr/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/cepr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>/project/covid-19/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/covid-19/</guid>
+      <description>&lt;p&gt;The COVID-19 pandemic made epidemiology models directly policy-relevant to every government around the world. Given how little is still understood about the characteristics of the disease, models of increasing complexity were necessary to model potential trajectories of coronavirus across different policy scenarios in countries with markedly different demographic structures.&lt;/p&gt;
+&lt;p&gt;My work with epidemiologists is focused on two things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Providing&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
