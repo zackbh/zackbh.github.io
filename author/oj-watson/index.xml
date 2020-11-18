@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OJ Watson | Economics</title>
+    <link>/author/oj-watson/</link>
+      <atom:link href="/author/oj-watson/index.xml" rel="self" type="application/rss+xml" />
+    <description>OJ Watson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>OJ Watson</title>
+      <link>/author/oj-watson/</link>
+    </image>
+    
+    <item>
+      <title>The Benefits and Costs of Social Distancing in High and Low Income Countries</title>
+      <link>/publication/covid19vsl/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/covid19vsl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

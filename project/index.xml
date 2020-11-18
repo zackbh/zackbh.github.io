@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -15,18 +15,177 @@
     <item>
       <title>Migration Games</title>
       <link>/project/modeling-migration/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/project/modeling-migration/</guid>
-      <description>&lt;p&gt;Migration is a difficult topic to study because there is so little data. People tend not to move: an estimated 3% of the world&amp;rsquo;s population ever migrates. And when people do move, they rarely leave forwarding addresses. Despite the proliferation of survey data, talking to people at their homes doesn&amp;rsquo;t tell us much about what happened to the ones who migrated, or why they left. We do know that people move for a variety of reasons, usually as a way of seeking a better life&amp;mdash;higher wages, more education, easier access to healthcare, more freedom, or more opportunity. But we know little about how and why people make that exact decision over whether and when to stay or go.&lt;/p&gt;
-&lt;p&gt;Immobility is puzzling to many economists because it appears that many people might significantly their quality of life by moving. Even small changes in location, across zip codes and neighborhoods, can yield large improvements in a person&amp;rsquo;s safety and economic outcomes. Of course, people have a strong attachment to their homes&amp;mdash;so maybe this is what keeps them staying put? Or is the belief that economists have, that so many people could upgrade their lives by moving, just an illusion? After all, if these moves were really so beneficial, why haven&amp;rsquo;t people already made them?&lt;/p&gt;
+      <description>&lt;p&gt;Migration is difficult to study because there is so little data. People tend not to move: an estimated &lt;a href=&#34;https://www.un.org/sites/un2.un.org/files/wmr_2020.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3% of the world&amp;rsquo;s population ever migrates&lt;/a&gt;. And when people do move, they rarely leave forwarding addresses. Despite the proliferation of large socioeconomic survey datasets, talking to people at their homes doesn&amp;rsquo;t tell us much about what happened to the ones who migrated, or why they left. We do know that people move for a variety of reasons, usually as a way of seeking a better life&amp;mdash;higher wages, more education, easier access to healthcare, more freedom, more opportunity generally. But we know little about how and why people make that exact decision over whether and when to stay or go.&lt;/p&gt;
+&lt;p&gt;Immobility is puzzling to many economists because it appears that many people might significantly their quality of life by moving. Even small changes in location, &lt;a href=&#34;https://www.opportunityatlas.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;across zip codes and neighborhoods&lt;/a&gt;, can yield large improvements in a person&amp;rsquo;s safety and economic outcomes. Of course, people have a strong attachment to their homes&amp;mdash;so maybe this is what keeps them put? Or is the belief that economists have, that so many people could upgrade their lives by moving, just an illusion? After all, if these moves were really so beneficial, why haven&amp;rsquo;t people already made them?&lt;/p&gt;
 &lt;h1 id=&#34;a-lab-experiment&#34;&gt;A Lab Experiment&lt;/h1&gt;
-&lt;p&gt;To answer these questions I needed an experiment where I could observe migration choices and I could actually know what a person&amp;rsquo;s payoff was to migration, not just guess at it from their observed demographics. I wanted to create a laboratory experiment where I could observe people making migration decision.&lt;/p&gt;
-&lt;p&gt;The structure of a migration decision is simple: it&amp;rsquo;s a sequence of choices we all make on a day-to-day basis of whether to stay or go, and we learn over time whether we&amp;rsquo;ve made the right decision. Recreating this choice in a lab is difficult. Where we choose to live is one of the biggest decisions we ever make in our lives. A laboratory experiment cannot wholly recreate the magnitude of this choice.&lt;/p&gt;
-&lt;p&gt;Yet there are instances where people become hugely dedicated to solving a virtual problem. These are computer and video games, where people play them furiously, competitively&amp;mdash;and not with the expectation of any external reward. I thought about games I played as a kid, like &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Oregon_Trail_%28series%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Oregon Trail&lt;/a&gt;, where I worked hard to guide a family on a historic, cross-continental migration.&lt;/p&gt;
-&lt;p&gt;I decided to design a similar migration video game. However, I wanted to isolate the stay-or-go and where-to-go decision-making process at the root of migration. I didn&amp;rsquo;t want to make a game literally about migration, as I was worried about it falling into the &amp;ldquo;&lt;a href=&#34;https://spectrum.ieee.org/automaton/robotics/humanoids/what-is-the-uncanny-valley&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;uncanny valley&lt;/a&gt;:&amp;rdquo; the more the game is &lt;em&gt;explicitly&lt;/em&gt; about migration, the more obvious it may be to players that they are not actually migrating. Some abstraction was necessary. I also wanted to unmoor players from their prior beliefs. For example, if I show you a map, even of a &lt;a href=&#34;http://tolkiengateway.net/w/images/5/5c/Pauline_Baynes_-_A_Map_of_Middle-earth_%28color%29_2.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fictional land&lt;/a&gt;, some places will look better than others depending on your own preferences.&lt;/p&gt;
-&lt;p&gt;In order to create a game that involved migration choices, but was outside of the uncanny valley, I set the game in outer space. The game involves players captaining a starship, moving it between alien worlds. The concept is outlandish, but also provides a compelling frame for optimal dynamic problem solving that is disconnected from participant&amp;rsquo;s own experiences. When people play this game, they are solving a migration problem, they are moving between worlds finding the one they do the best at.&lt;/p&gt;
+&lt;p&gt;To understand how people migrate I needed an experiment where I could condense a lifetime of migration choices down to a more manageable timeframe, and where I could actually know their payoff to moving, not just guess at it from their observed demographics. That way I could answer the question whether people really were forgoing significant economic opportunity by not migrating.&lt;/p&gt;
+&lt;p&gt;The structure of a migration decision is very simple: you decide whether to stay where you are or to leave, and if you choose to leave, you decide where to go. You make this decision, repeatedly, and you learn over time whether you&amp;rsquo;ve made the right decision. Staying where you are might be what&amp;rsquo;s best for you; maybe moving to a new town or state would offer you a better life? Recreating the magnitude of this choice in an experimental setting is difficult because where we choose to live is one of the biggest decisions we ever make in our lives.&lt;/p&gt;
+&lt;p&gt;Yet there are instances where people become hugely dedicated to solving virtual problems. These are computer and video games, which people play them furiously, &lt;a href=&#34;https://lolesports.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competitively&lt;/a&gt;&amp;mdash;and not necessarily with the expectation of any external reward. I thought about games I played as a kid, like &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Oregon_Trail_%28series%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Oregon Trail&lt;/a&gt;, where I worked hard to guide a family on a historic, cross-continental migration.&lt;/p&gt;
+&lt;p&gt;I decided to design a similar migration video game. However, I wanted to isolate the stay-or-go and where-to-go decision-making process at the root of migration. I didn&amp;rsquo;t want to make a game literally about migration, as I was worried about it falling into the &amp;ldquo;&lt;a href=&#34;https://spectrum.ieee.org/automaton/robotics/humanoids/what-is-the-uncanny-valley&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;uncanny valley&lt;/a&gt;:&amp;rdquo; the more the game is &lt;em&gt;explicitly&lt;/em&gt; about migration, the more obvious it may be to players that they are not actually migrating. Some abstraction was necessary. I also wanted to unmoor players from their prior beliefs. For example, if I show you a map, even of a &lt;a href=&#34;http://tolkiengateway.net/w/images/5/5c/Pauline_Baynes_-_A_Map_of_Middle-earth_%28color%29_2.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fictional land&lt;/a&gt;, some places will look better than others depending on your own idiosyncratic preferences.&lt;/p&gt;
+&lt;p&gt;In order to create a migration game that fell outside of the uncanny valley and abstracted away from individual preferences, I set the game in outer space, a place that no-one in my study would have significant priors over. The game involves players captaining a starship, moving it between alien worlds. The concept is outlandish, but also provides a compelling frame for optimal dynamic problem solving that is disconnected from participant&amp;rsquo;s own experiences. When people play this game, they are solving a migration problem, they are moving between worlds finding the one they do the best at.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/game-graphics-5.png&#34; &gt;
+
+
+  &lt;img src=&#34;/media/game-graphics-5.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/game-graphics-7.png&#34; &gt;
+
+
+  &lt;img src=&#34;/media/game-graphics-7.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h1 id=&#34;testing-the-game&#34;&gt;Testing the game&lt;/h1&gt;
-&lt;p&gt;To gather data on decision-making I ran the game in two countries, the United States and Ethiopia. In the United States I ran the game at the University of Wisconsin-Madison&amp;rsquo;s &lt;a href=&#34;http://brite.wisc.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRITE Lab&lt;/a&gt;, and in Ethiopia I ran the game at the &lt;a href=&#34;http://www.bdu.edu.et&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Bahir Dar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To gather data on decision-making in vastly different contexts I recruited participants in two countries. In the United States I ran the game at the University of Wisconsin-Madison&amp;rsquo;s &lt;a href=&#34;http://brite.wisc.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BRITE Lab&lt;/a&gt;, and in Ethiopia I ran the game at the &lt;a href=&#34;http://www.bdu.edu.et&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Bahir Dar&lt;/a&gt;. Each participant played the game for approximately 30 minutes to an hour, then filled out a detailed demographic survey.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/bahir_dar1.jpeg&#34; &gt;
+
+
+  &lt;img src=&#34;/media/bahir_dar1.jpeg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/bahir_dar3.jpeg&#34; &gt;
+
+
+  &lt;img src=&#34;/media/bahir_dar3.jpeg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;findings&#34;&gt;Findings&lt;/h1&gt;
+&lt;p&gt;The migration game presents a reinforcement learning problem under uncertainty. Players attempt to maximize their rewards by moving between worlds, discovering over time which one best suits them. The structure of this game allows me to solve it with a &lt;em&gt;multi-armed bandit&lt;/em&gt; algorithm.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;/media/full_game.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 
 
 
@@ -140,6 +299,11 @@
 
 
 
+  
+  &lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;/project/modeling-migration/&#34;&gt;
+    Project
+  &lt;/a&gt;
+  
 
 
 
@@ -148,6 +312,23 @@
 
 
 
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary my-1 mr-1 btn-sm&#34; href=&#34;https://blogs.worldbank.org/impactevaluations/why-don-t-people-migrate-more-lab-experiment-sequential-decision-making-guest-post-zach-barnett&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    
+    World Bank Blog
+  &lt;/a&gt;
 
 
   &lt;/div&gt;
@@ -158,91 +339,14 @@
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-a-caption&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;graphics2&#34; data-caption=&#34;A caption&#34;&gt;
-
-
-  &lt;img src=&#34;graphics2&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    A caption
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-modeling-migration&#34; href=&#34;/project/modeling-migration/modeling-migration/game-graphics-5.png&#34; &gt;
-  &lt;img data-src=&#34;/project/modeling-migration/modeling-migration/game-graphics-5_hue45168e8f4e9e61fcce0ec4077b2f061_1498349_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;296&#34; height=&#34;190&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-modeling-migration&#34; href=&#34;/project/modeling-migration/modeling-migration/game-graphics-6.png&#34; &gt;
-  &lt;img data-src=&#34;/project/modeling-migration/modeling-migration/game-graphics-6_hu28e1bed55cca5d166f81c315ce8c596c_1424188_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;296&#34; height=&#34;190&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-modeling-migration&#34; href=&#34;/project/modeling-migration/modeling-migration/graphics2.png&#34; &gt;
-  &lt;img data-src=&#34;/project/modeling-migration/modeling-migration/graphics2_hucdd789574ac4d8ebb008b72f6f640aba_1464816_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;294&#34; height=&#34;190&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The term is a reference to slot machines, which have been called &amp;ldquo;&lt;em&gt;one armed bandits&lt;/em&gt;.&amp;rdquo; An algorithm that could solve &lt;em&gt;N&lt;/em&gt; slot machines would then be work a &lt;em&gt;multi&lt;/em&gt;-armed bandit. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
@@ -252,8 +356,8 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/agricultural-risk/</guid>
       <description>&lt;p&gt;Smallholder farmers in low-income countries depend on their crops to generate much of their yearly income and to feed their families. These farmers invest little in new technologies or complementary inputs like fertilizer, and so produce significantly less with their land and labor than those in richer countries. Farmers don&amp;rsquo;t invest because they face numerous agricultural risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and also any investment they made.&lt;/p&gt;
-&lt;p&gt;My work in agriculture is focused on new technologies that help farmers better manage risk. If farmers face fewer losses they should be willing to invest more in their production, leading to a virtuouous cycle of higher yields and higher investment. I specifically work on the crop disease &lt;em&gt;Phytophthora infestans&lt;/em&gt;, the infamous cause of the Irish potato famine, and a constant theat to farmers worldwide.&lt;/p&gt;
-&lt;p&gt;I work with potato farmers in northwestern Bangladesh. Using a system that combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geopgraphic resolution. When the risk of blight is high, we send SMS alerts to farmers telling them to spray their fields to prevent the disease.&lt;/p&gt;
+&lt;p&gt;My work in agriculture is focused on new technologies that help farmers better manage risk. If farmers face fewer losses they should be willing to invest more in their production, leading to a virtuouous cycle of higher yields and higher investment. I specifically work on the crop disease &lt;em&gt;Phytophthora infestans&lt;/em&gt;, the infamous cause of the Irish potato famine, that remains threat to farmers worldwide.&lt;/p&gt;
+&lt;p&gt;I work with potato farmers in Rangpur, northwestern Bangladesh. Using a system that combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geopgraphic resolution. When the risk of blight is high, we send SMS alerts to farmers telling them to spray their fields to prevent the disease.&lt;/p&gt;
 </description>
     </item>
     
@@ -262,7 +366,7 @@
       <link>/project/covid-19/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/covid-19/</guid>
-      <description>&lt;p&gt;The COVID-19 pandemic made epidemiology models directly policy-relevant to every government around the world. Given how little is still understood about the characteristics of the disease, models of increasing complexity were necessary to model potential trajectories of coronavirus across different policy scenarios in countries with markedly different demographic structures.&lt;/p&gt;
+      <description>&lt;p&gt;The COVID-19 pandemic made epidemiological models of disease transmission directly policy-relevant to every government around the world. Given how little is still understood about the characteristics of the disease, models of increasing complexity were necessary to model potential trajectories of coronavirus across different policy scenarios in countries with markedly different demographic structures.&lt;/p&gt;
 &lt;p&gt;My work with epidemiologists is focused on two things:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Providing&lt;/li&gt;

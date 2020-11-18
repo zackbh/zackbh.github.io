@@ -43,12 +43,22 @@
   </url>
   
   <url>
+    <loc>/author/ahmed-mushfiq-mobarak/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/geopotato/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/oj-watson/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,18 +73,13 @@
   </url>
   
   <url>
-    <loc>/author/zachary-barnett-howell/</loc>
+    <loc>/publication/covid19vsl/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/modeling-migration/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <loc>/author/zachary-barnett-howell/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -128,23 +133,8 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -155,6 +145,16 @@
   <url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/modeling-migration/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -173,38 +173,15 @@
   </url>
   
   <url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <loc>/post/</loc>
   </url>
   
   <url>
     <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
