@@ -123,6 +123,20 @@
     </item>
     
     <item>
+      <title>COVID-19</title>
+      <link>/project/covid-19/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/covid-19/</guid>
+      <description>&lt;p&gt;The COVID-19 pandemic made epidemiological models of disease transmission immediately policy-relevant to every government around the world. The rapid transmission of the coronavirus mandated a rapid policy response, which came in the form of social-distancing and lockdown mandates.&lt;/p&gt;
+&lt;p&gt;My work with epidemiologists is focused on two things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Providing&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Slides</title>
       <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -599,22 +613,9 @@ Three
       <link>/project/agricultural-risk/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/agricultural-risk/</guid>
-      <description>&lt;p&gt;Smallholder farmers in low-income countries depend on their crops to generate much of their yearly income and to feed their families. These farmers invest little in new technologies or complementary inputs like fertilizer, and so produce significantly less with their land and labor than those in richer countries. Farmers don&amp;rsquo;t invest because they face numerous agricultural risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and also any investment they made.&lt;/p&gt;
-&lt;p&gt;My work in agriculture is focused on new technologies that help farmers better manage risk. If farmers face fewer losses they should be willing to invest more in their production, leading to a virtuouous cycle of higher yields and higher investment. I specifically work on the crop disease &lt;em&gt;Phytophthora infestans&lt;/em&gt;, the infamous cause of the Irish potato famine, that remains threat to farmers worldwide.&lt;/p&gt;
+      <description>&lt;p&gt;Smallholder farmers in low-income countries depend on their crops to generate much of their yearly income and to feed their families. These farmers produce significantly less with their land and labor than their counterparts in richer countries. This is partially due to their limited investment in new technologies or complementary inputs like fertilizer. One of the reasons smallholder farmers don&amp;rsquo;t invest is because they face numerous agricultural risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and also any investment they have made. Where farmers in high-income countries enjoy a wealth of insurance and credit products&amp;mdash;as well as government support&amp;mdash;designed to help them in the event of a negative shock. Farmers in low-income countries need equivalent support, but affordable and scalable.&lt;/p&gt;
+&lt;p&gt;My work in agriculture is focused on new technologies that help farmers better manage risk. If farmers face fewer losses they should be willing to invest more in their production, leading to higher yields and higher investment. I specifically work on the crop disease &lt;em&gt;Phytophthora infestans&lt;/em&gt;, the infamous cause of the Irish potato famine, that remains threat to farmers worldwide.&lt;/p&gt;
 &lt;p&gt;I work with potato farmers in Rangpur, northwestern Bangladesh. Using a system that combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geopgraphic resolution. When the risk of blight is high, we send SMS alerts to farmers telling them to spray their fields to prevent the disease.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>COVID-19</title>
-      <link>/project/covid-19/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/covid-19/</guid>
-      <description>&lt;p&gt;The COVID-19 pandemic made epidemiological models of disease transmission directly policy-relevant to every government around the world. Given how little is still understood about the characteristics of the disease, models of increasing complexity were necessary to model potential trajectories of coronavirus across different policy scenarios in countries with markedly different demographic structures.&lt;/p&gt;
-&lt;p&gt;My work with epidemiologists is focused on two things:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Providing&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     

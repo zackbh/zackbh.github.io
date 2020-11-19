@@ -133,6 +133,16 @@
   </url>
   
   <url>
+    <loc>/project/covid-19/</loc>
+    <lastmod>2020-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -153,17 +163,7 @@
   </url>
   
   <url>
-    <loc>/project/</loc>
-    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/agricultural-risk/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/covid-19/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
