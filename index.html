@@ -243,6 +243,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110431252-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-110431252-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -940,54 +978,16 @@
 <div class="project-card project-item isotope-item js-id-covid-19">
   <div class="card">
     
+    
+    <a href="/project/covid-19/"  class="card-image hover-overlay">
+      <img src="/project/covid-19/featured_huaea59ea7d85bb1ea3be131f319e7f9de_207465_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
     <div class="card-text">
       <h4><a href="/project/covid-19/" >COVID-19</a></h4>
       
       <div class="article-style">
         <p>The economic consequences of COVID-19</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item ">
-  <div class="card">
-    
-    
-    <a href="/project/modeling-migration/"  class="card-image hover-overlay">
-      <img src="/project/modeling-migration/featured_hu2b8997ee5c4982440fc70c6dc384ee19_335888_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/modeling-migration/" >Migration Games</a></h4>
-      
-      <div class="article-style">
-        <p>Testing migration choices in the lab</p>
       </div>
       
     </div>
@@ -1031,6 +1031,49 @@
       
       <div class="article-style">
         <p>How do farmers in low-income countries manage agricultural risk?</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item ">
+  <div class="card">
+    
+    
+    <a href="/project/modeling-migration/"  class="card-image hover-overlay">
+      <img src="/project/modeling-migration/featured_hu2b8997ee5c4982440fc70c6dc384ee19_335888_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/modeling-migration/" >Migration Games</a></h4>
+      
+      <div class="article-style">
+        <p>Testing migration choices in the lab</p>
       </div>
       
     </div>

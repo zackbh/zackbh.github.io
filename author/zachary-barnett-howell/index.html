@@ -243,6 +243,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110431252-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-110431252-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -283,7 +321,7 @@
   <meta property="og:description" content="Postdoctoral Associate"><meta property="og:image" content="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-11-10T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-04-10T00:00:00&#43;00:00">
   
 
   
@@ -579,188 +617,14 @@
 
 
 
+<div class="universal-wrapper pt-3">
+  <h1>Zachary Barnett-Howell</h1>
+</div>
+
 
 <section id="profile-page" class="pt-5">
   <div class="container">
     
-    
-      
-      
-      
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle" src="/author/zachary-barnett-howell/avatar_hu8bd761014f16577b1c7390e69fe9c39b_1287113_270x270_fill_q90_lanczos_center.jpg" alt="Zachary Barnett-Howell">
-      
-
-      <div class="portrait-title">
-        <h2>Zachary Barnett-Howell</h2>
-        <h3>Postdoctoral Associate</h3>
-
-        
-        <h3>
-          <a href="https://www.yale.edu/" target="_blank" rel="noopener">
-          <span>Yale University</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/#contact" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://twitter.com/zackt_bh" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/zackbh" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://linkedin.com/in/zackbh" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    
-
-    <p>Zachary Barnett-Howell is a postdoctoral associate at Yale University, with appointments in the Economics, Political Science, and <a href="https://southasia.macmillan.yale.edu" target="_blank" rel="noopener">South Asian Studies</a> departments. Zachary is also affiliated with the Yale Research Initiative on Innovations at Scale (<a href="http://yrise.yale.edu" target="_blank" rel="noopener">Y-RISE</a>).</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Agriculture and Development</li>
-          
-          <li>Migration</li>
-          
-          <li>Machine Learning</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Applied &amp; Agricultural Economics and Political Science, 2018</p>
-              <p class="institution">University of Wisconsin - Madison</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MA in History, 2009</p>
-              <p class="institution">Bogazici University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BA in Political Science and International Studies, 2007</p>
-              <p class="institution">University of Washington</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
     
 
     
@@ -771,19 +635,11 @@
       <ul>
         
         <li>
-          <a href="/publication/geopotato/">No Small Potatoes: Agricultural Risk and Investment under Uncertainty</a>
+          <a href="/publication/foreign-affairs/">Poor Countries Need to Think Twice About Social Distancing</a>
         </li>
         
         <li>
-          <a href="/publication/covid19vsl/">The Benefits and Costs of Social Distancing in High and Low Income Countries</a>
-        </li>
-        
-        <li>
-          <a href="/publication/mali-migration/">Determinants of Migration: Cotton Strikes and Income Shocks in Mali</a>
-        </li>
-        
-        <li>
-          <a href="/publication/migration-games/">Should I Stay or Should I Go: Microeconomic Determinants of Migration</a>
+          <a href="/publication/cepr/">The value of social distancing is not equally distributed</a>
         </li>
         
       </ul>

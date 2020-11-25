@@ -243,6 +243,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110431252-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-110431252-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -281,9 +319,9 @@
   <meta property="twitter:image" content="/project/agricultural-risk/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2019-10-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-10-01T00:00:00&#43;00:00">
   
 
   
@@ -313,8 +351,8 @@
     "/project/agricultural-risk/featured.jpg"
   ],
   
-  "datePublished": "2016-04-27T00:00:00Z",
-  "dateModified": "2016-04-27T00:00:00Z",
+  "datePublished": "2019-10-01T00:00:00Z",
+  "dateModified": "2019-10-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -670,7 +708,7 @@
     
       
     
-    Apr 27, 2016
+    Oct 1, 2019
   </span>
   
 
@@ -719,9 +757,101 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Smallholder farmers in low-income countries depend on their crops to generate much of their yearly income and to feed their families. These farmers produce significantly less with their land and labor than their counterparts in richer countries. This is partially due to their limited investment in new technologies or complementary inputs like fertilizer. One of the reasons smallholder farmers don&rsquo;t invest is because they face numerous agricultural risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and also any investment they have made. Where farmers in high-income countries enjoy a wealth of insurance and credit products&mdash;as well as government support&mdash;designed to help them in the event of a negative shock. Farmers in low-income countries need equivalent support, but affordable and scalable.</p>
-<p>My work in agriculture is focused on new technologies that help farmers better manage risk. If farmers face fewer losses they should be willing to invest more in their production, leading to higher yields and higher investment. I specifically work on the crop disease <em>Phytophthora infestans</em>, the infamous cause of the Irish potato famine, that remains threat to farmers worldwide.</p>
-<p>I work with potato farmers in Rangpur, northwestern Bangladesh. Using a system that combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geopgraphic resolution. When the risk of blight is high, we send SMS alerts to farmers telling them to spray their fields to prevent the disease.</p>
+      <p>Smallholder farmers in low-income countries rely on their land to generate income and to feed their families. Yet despite the importance of agriculture for these households, these farmers produce significantly less with their land and labor than their counterparts in richer countries. The number of people engaged in low-productivity agriculture reduces the economic growth and serves as an impediment to the structural transformation of poorer economies into richer ones.</p>
+<p>One of the hypotheses explaining this low productivity among smallholder farmers is limited investment in new technologies or yield-increasing inputs, like fertilizer. While cash-on-hand and credit constraints limit investment, risk is also a significant deterrent. Farmers face numerous risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and any additional investment they have made. Farmers in high-income countries enjoy a wealth of insurance and credit products&mdash;as well as government support&mdash;designed to help them in the event of a negative shock. Farmers in low-income countries need equivalent support, but through a system that is both affordable and scalable.</p>
+<h1 id="potato-blight">Potato Blight</h1>
+<p>My work in agriculture is focused on new technologies that help farmers better manage risk. While some risks, like hurricanes and droughts, are unavoidable, other risks can be managed by farmers themselves. And if farmers face fewer losses they should be willing to invest more in their production, leading to higher yields and higher investment.</p>
+<p>I specifically work on the crop disease <em>Phytophthora infestans</em>, the infamous cause of the Irish potato famine, that remains a threat to farmers worldwide.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Blight is difficult to combat because of how quickly it can ruin a farmer&rsquo;s crop, moving from initial infection to total destruction within a week. Farmers combat this risk with fungicide, which is effective&mdash;so long as the farmer applied it <em>before</em> the blight emerges. As a result farmers repeatedly spray large amounts of fungicide over the season, at the cost of their own health as they expose themselves to the hazardous chemicals.</p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-a-farmer-using-a-backpack-sprayer-to-apply-fungicide-to-their-field">
+
+
+  <a data-fancybox="" href="/media/IMG_1482.JPG" data-caption="A farmer using a backpack sprayer to apply fungicide to their field">
+
+
+  <img src="/media/IMG_1482.JPG" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption>
+    A farmer using a backpack sprayer to apply fungicide to their field
+  </figcaption>
+
+
+</figure>
+
+<p>I work with potato farmers in Rangpur, northwestern Bangladesh. These farmers are own small amounts of land, 1 acre on average, and grow potatoes between their rice harvests as a way of quickly making money. Using a precision agricultural system called GEOPOTATO run by the NGO <a href="https://www.mpower-social.com" target="_blank" rel="noopener">mPower</a>, which combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geographic resolution. When the risk of blight is high, the alert system automatically sends SMS and voice alerts to farmers telling them to spray their fields to prevent the disease.</p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-local-geopotato-weather-station">
+
+
+  <a data-fancybox="" href="/media/geopotato-farmer.jpg" data-caption="Local GEOPOTATO weather station">
+
+
+  <img src="/media/geopotato-farmer.jpg" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Local GEOPOTATO weather station
+  </figcaption>
+
+
+</figure>
+
+<p>Over the 2019-2020 growing season I found that farmers were able to make considerable use of the early warning system, losing less of their crop to blight and investing more in fertilizer. As a result yields and expected profits&mdash;unsurprisingly!&mdash;increased.</p>
+<h1 id="next-steps">Next steps</h1>
+<p>The alerts are accurate and cheap to deliver, and continuing this work will require expanding the service throughout Bangladesh. There may be other useful information that can be attached to these alerts, in the form of weather and planting advisories, as well as market data that can help farmers invest more in their fields and earn more money for their efforts.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The discovery and resultant blight epidemic throughout North America and Europe was international news at the time, leading to front-page newspaper articles and government and scientific commissions designed to cure the outbreak. Charles Darwin <a href="https://doi.org/10.1093/biosci/biw114" target="_blank" rel="noopener">worked on this disease for over 40 years</a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
     </div>
 

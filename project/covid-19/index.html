@@ -243,6 +243,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110431252-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-110431252-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -267,10 +305,9 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@zackt_bh">
   <meta property="twitter:creator" content="@zackt_bh">
@@ -278,8 +315,8 @@
   <meta property="og:site_name" content="Economics">
   <meta property="og:url" content="/project/covid-19/">
   <meta property="og:title" content="COVID-19 | Economics">
-  <meta property="og:description" content="The economic consequences of COVID-19"><meta property="og:image" content="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="The economic consequences of COVID-19"><meta property="og:image" content="/project/covid-19/featured.jpg">
+  <meta property="twitter:image" content="/project/covid-19/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-03-27T00:00:00&#43;00:00">
@@ -309,6 +346,10 @@
     "@id": "/project/covid-19/"
   },
   "headline": "COVID-19",
+  
+  "image": [
+    "/project/covid-19/featured.jpg"
+  ],
   
   "datePublished": "2020-03-27T00:00:00Z",
   "dateModified": "2020-03-27T00:00:00Z",
@@ -634,18 +675,26 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>COVID-19</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -678,22 +727,29 @@
 
 </div>
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+  <div style="position: relative">
+    <img src="/project/covid-19/featured_huaea59ea7d85bb1ea3be131f319e7f9de_207465_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
+  </div>
 </div>
 
 
@@ -701,12 +757,17 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>The COVID-19 pandemic made epidemiological models of disease transmission immediately policy-relevant to every government around the world. The rapid transmission of the coronavirus mandated a rapid policy response, which came in the form of social-distancing and lockdown mandates.</p>
+      <p>The COVID-19 pandemic made epidemiological models of disease transmission policy-relevant to every government around the world. The exponential growth of the coronavirus required a rapid policy response, which came in the form of social-distancing and lockdown mandates. Many lockdowns were instigated by the development of models of what would happen <em>without</em> intervention, prominently including work by the <a href="https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/covid-19-reports/" target="_blank" rel="noopener">Imperial College London COVID-19 Response Team</a>.</p>
 <p>My work with epidemiologists is focused on two things:</p>
 <ol>
-<li>Providing</li>
-<li></li>
+<li>Providing an analysis of the economic consequences of COVID-19 lockdown and social distancing policy.</li>
+<li>Modeling the response of economic agents to the risk of disease.</li>
 </ol>
+<h1 id="economic-consequences">Economic Consequences</h1>
+<p>At the center of an epidemiological model is the probabilistic risk of disease transmission and mortality. Different policy interventions have the potential to reduce the risk of transmission and resultant mortality, but given the significant non-linearities in the dynamics of disease transmission, policies that appear similar can have vastly dissimilar outcomes. Evaluating the optimal level of stringency for any public health measure requires a risk-reward tradeoff, and economics has a substantial toolkit for thinking about the value of risk reduction. To this end I&rsquo;ve worked in collaboration with researchers at Imperial College London to use their model of COVID-19 transmission, <a href="https://mrc-ide.github.io/squire/" target="_blank" rel="noopener">squire</a>, to provide estimates of the welfare value of risk reduction under a number of policy scenarios. In our paper, &ldquo;The Benefits and Costs of Social Distancing in High and Low Income Countries,&rdquo; we consider the welfare benefit to social distancing and lockdown policies in countries across the world. We find that the value of an identical policy varies widely between countries, due to different demographic factors, as well as the local price of risk. Economic estimation of welfare should continue to be employed in public health interventions, to provide a meaningful estimate of the value they provide each society.</p>
+<h1 id="mobility-in-epidemiological-models">Mobility in Epidemiological Models</h1>
+<p>The spread of disease in an epidemiological model is driven by mobility: how people move within an area, who they interact with. Mobility in many models is either assumed to be at some level, or derived from a <a href="https://doi.org/10.1371/journal.pcbi.1005697" target="_blank" rel="noopener">small set of studies</a>. However, people may&mdash;independent of any government policy&mdash;reduce their interactions with others in response to high risk of disease. Furthermore, lockdowns may be ineffective if people may accept the risk of disease to extended periods of economic deprivation. These concerns are particular salient for people living close to subsistence with little access to government support. My aim is to help develop epidemiological models that incorporate the mobility decisions made by millions on a day-to-day basis over whether reduce their interactions with others or to go out in search of work.</p>
+<p>Other ongoing work of in Bangladesh involves using symptomatic data to estimate the prevalence of COVID-19. A lack of medical testing (in many countries) has made it difficult to estimate the prevalence or trajectory of the disease. Working with the NGO <a href="https://www.jeeon.co" target="_blank" rel="noopener">Jeeon</a> I am working on using machine-learning tools with pharmacy-level symptomatic reports to derive estimates of the local prevalence of COVID-19 across Bangladesh.</p>
 
     </div>
 

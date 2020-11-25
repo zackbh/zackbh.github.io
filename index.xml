@@ -127,12 +127,120 @@
       <link>/project/covid-19/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/project/covid-19/</guid>
-      <description>&lt;p&gt;The COVID-19 pandemic made epidemiological models of disease transmission immediately policy-relevant to every government around the world. The rapid transmission of the coronavirus mandated a rapid policy response, which came in the form of social-distancing and lockdown mandates.&lt;/p&gt;
+      <description>&lt;p&gt;The COVID-19 pandemic made epidemiological models of disease transmission policy-relevant to every government around the world. The exponential growth of the coronavirus required a rapid policy response, which came in the form of social-distancing and lockdown mandates. Many lockdowns were instigated by the development of models of what would happen &lt;em&gt;without&lt;/em&gt; intervention, prominently including work by the &lt;a href=&#34;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/covid-19-reports/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imperial College London COVID-19 Response Team&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My work with epidemiologists is focused on two things:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Providing&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Providing an analysis of the economic consequences of COVID-19 lockdown and social distancing policy.&lt;/li&gt;
+&lt;li&gt;Modeling the response of economic agents to the risk of disease.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h1 id=&#34;economic-consequences&#34;&gt;Economic Consequences&lt;/h1&gt;
+&lt;p&gt;At the center of an epidemiological model is the probabilistic risk of disease transmission and mortality. Different policy interventions have the potential to reduce the risk of transmission and resultant mortality, but given the significant non-linearities in the dynamics of disease transmission, policies that appear similar can have vastly dissimilar outcomes. Evaluating the optimal level of stringency for any public health measure requires a risk-reward tradeoff, and economics has a substantial toolkit for thinking about the value of risk reduction. To this end I&amp;rsquo;ve worked in collaboration with researchers at Imperial College London to use their model of COVID-19 transmission, &lt;a href=&#34;https://mrc-ide.github.io/squire/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;squire&lt;/a&gt;, to provide estimates of the welfare value of risk reduction under a number of policy scenarios. In our paper, &amp;ldquo;The Benefits and Costs of Social Distancing in High and Low Income Countries,&amp;rdquo; we consider the welfare benefit to social distancing and lockdown policies in countries across the world. We find that the value of an identical policy varies widely between countries, due to different demographic factors, as well as the local price of risk. Economic estimation of welfare should continue to be employed in public health interventions, to provide a meaningful estimate of the value they provide each society.&lt;/p&gt;
+&lt;h1 id=&#34;mobility-in-epidemiological-models&#34;&gt;Mobility in Epidemiological Models&lt;/h1&gt;
+&lt;p&gt;The spread of disease in an epidemiological model is driven by mobility: how people move within an area, who they interact with. Mobility in many models is either assumed to be at some level, or derived from a &lt;a href=&#34;https://doi.org/10.1371/journal.pcbi.1005697&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;small set of studies&lt;/a&gt;. However, people may&amp;mdash;independent of any government policy&amp;mdash;reduce their interactions with others in response to high risk of disease. Furthermore, lockdowns may be ineffective if people may accept the risk of disease to extended periods of economic deprivation. These concerns are particular salient for people living close to subsistence with little access to government support. My aim is to help develop epidemiological models that incorporate the mobility decisions made by millions on a day-to-day basis over whether reduce their interactions with others or to go out in search of work.&lt;/p&gt;
+&lt;p&gt;Other ongoing work of in Bangladesh involves using symptomatic data to estimate the prevalence of COVID-19. A lack of medical testing (in many countries) has made it difficult to estimate the prevalence or trajectory of the disease. Working with the NGO &lt;a href=&#34;https://www.jeeon.co&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jeeon&lt;/a&gt; I am working on using machine-learning tools with pharmacy-level symptomatic reports to derive estimates of the local prevalence of COVID-19 across Bangladesh.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agricultural Risk</title>
+      <link>/project/agricultural-risk/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/agricultural-risk/</guid>
+      <description>&lt;p&gt;Smallholder farmers in low-income countries rely on their land to generate income and to feed their families. Yet despite the importance of agriculture for these households, these farmers produce significantly less with their land and labor than their counterparts in richer countries. The number of people engaged in low-productivity agriculture reduces the economic growth and serves as an impediment to the structural transformation of poorer economies into richer ones.&lt;/p&gt;
+&lt;p&gt;One of the hypotheses explaining this low productivity among smallholder farmers is limited investment in new technologies or yield-increasing inputs, like fertilizer. While cash-on-hand and credit constraints limit investment, risk is also a significant deterrent. Farmers face numerous risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and any additional investment they have made. Farmers in high-income countries enjoy a wealth of insurance and credit products&amp;mdash;as well as government support&amp;mdash;designed to help them in the event of a negative shock. Farmers in low-income countries need equivalent support, but through a system that is both affordable and scalable.&lt;/p&gt;
+&lt;h1 id=&#34;potato-blight&#34;&gt;Potato Blight&lt;/h1&gt;
+&lt;p&gt;My work in agriculture is focused on new technologies that help farmers better manage risk. While some risks, like hurricanes and droughts, are unavoidable, other risks can be managed by farmers themselves. And if farmers face fewer losses they should be willing to invest more in their production, leading to higher yields and higher investment.&lt;/p&gt;
+&lt;p&gt;I specifically work on the crop disease &lt;em&gt;Phytophthora infestans&lt;/em&gt;, the infamous cause of the Irish potato famine, that remains a threat to farmers worldwide.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Blight is difficult to combat because of how quickly it can ruin a farmer&amp;rsquo;s crop, moving from initial infection to total destruction within a week. Farmers combat this risk with fungicide, which is effective&amp;mdash;so long as the farmer applied it &lt;em&gt;before&lt;/em&gt; the blight emerges. As a result farmers repeatedly spray large amounts of fungicide over the season, at the cost of their own health as they expose themselves to the hazardous chemicals.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-a-farmer-using-a-backpack-sprayer-to-apply-fungicide-to-their-field&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/IMG_1482.JPG&#34; data-caption=&#34;A farmer using a backpack sprayer to apply fungicide to their field&#34;&gt;
+
+
+  &lt;img src=&#34;/media/IMG_1482.JPG&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    A farmer using a backpack sprayer to apply fungicide to their field
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I work with potato farmers in Rangpur, northwestern Bangladesh. These farmers are own small amounts of land, 1 acre on average, and grow potatoes between their rice harvests as a way of quickly making money. Using a precision agricultural system called GEOPOTATO run by the NGO &lt;a href=&#34;https://www.mpower-social.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mPower&lt;/a&gt;, which combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geographic resolution. When the risk of blight is high, the alert system automatically sends SMS and voice alerts to farmers telling them to spray their fields to prevent the disease.&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-local-geopotato-weather-station&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/geopotato-farmer.jpg&#34; data-caption=&#34;Local GEOPOTATO weather station&#34;&gt;
+
+
+  &lt;img src=&#34;/media/geopotato-farmer.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Local GEOPOTATO weather station
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Over the 2019-2020 growing season I found that farmers were able to make considerable use of the early warning system, losing less of their crop to blight and investing more in fertilizer. As a result yields and expected profits&amp;mdash;unsurprisingly!&amp;mdash;increased.&lt;/p&gt;
+&lt;h1 id=&#34;next-steps&#34;&gt;Next steps&lt;/h1&gt;
+&lt;p&gt;The alerts are accurate and cheap to deliver, and continuing this work will require expanding the service throughout Bangladesh. There may be other useful information that can be attached to these alerts, in the form of weather and planting advisories, as well as market data that can help farmers invest more in their fields and earn more money for their efforts.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The discovery and resultant blight epidemic throughout North America and Europe was international news at the time, leading to front-page newspaper articles and government and scientific commissions designed to cure the outbreak. Charles Darwin &lt;a href=&#34;https://doi.org/10.1093/biosci/biw114&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;worked on this disease for over 40 years&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
@@ -271,7 +379,7 @@ Three
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/project/modeling-migration/</guid>
       <description>&lt;p&gt;Migration is difficult to study because there is so little data. People tend not to move: an estimated &lt;a href=&#34;https://www.un.org/sites/un2.un.org/files/wmr_2020.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3% of the world&amp;rsquo;s population ever migrates&lt;/a&gt;. And when people do move, they rarely leave forwarding addresses. Despite the proliferation of large socioeconomic survey datasets, talking to people at their homes doesn&amp;rsquo;t tell us much about what happened to the ones who migrated, or why they left. We do know that people move for a variety of reasons, usually as a way of seeking a better life&amp;mdash;higher wages, more education, easier access to healthcare, more freedom, more opportunity generally. But we know little about how and why people make that exact decision over whether and when to stay or go.&lt;/p&gt;
-&lt;p&gt;Immobility is puzzling to many economists because it appears that many people might significantly their quality of life by moving. Even small changes in location, &lt;a href=&#34;https://www.opportunityatlas.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;across zip codes and neighborhoods&lt;/a&gt;, can yield large improvements in a person&amp;rsquo;s safety and economic outcomes. Of course, people have a strong attachment to their homes&amp;mdash;so maybe this is what keeps them put? Or is the belief that economists have, that so many people could upgrade their lives by moving, just an illusion? After all, if these moves were really so beneficial, why haven&amp;rsquo;t people already made them?&lt;/p&gt;
+&lt;p&gt;Immobility is puzzling to many economists because it appears that many people might significantly their quality of life by moving. Even small changes in location, moving &lt;a href=&#34;https://www.opportunityatlas.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;across zip codes and neighborhoods&lt;/a&gt;, can yield large improvements in a person&amp;rsquo;s safety and economic outcomes. Of course, people have a strong attachment to their homes&amp;mdash;so maybe this is what keeps them put? Or is the belief that economists have, that so many people could upgrade their lives by moving, just an illusion? After all, if these moves were really so beneficial, why haven&amp;rsquo;t people already made them?&lt;/p&gt;
 &lt;h1 id=&#34;a-lab-experiment&#34;&gt;A Lab Experiment&lt;/h1&gt;
 &lt;p&gt;To understand how people migrate I needed an experiment where I could condense a lifetime of migration choices down to a more manageable timeframe, and where I could actually know their payoff to moving, not just guess at it from their observed demographics. That way I could answer the question whether people really were forgoing significant economic opportunity by not migrating.&lt;/p&gt;
 &lt;p&gt;The structure of a migration decision is very simple: you decide whether to stay where you are or to leave, and if you choose to leave, you decide where to go. You make this decision, repeatedly, and you learn over time whether you&amp;rsquo;ve made the right decision. Staying where you are might be what&amp;rsquo;s best for you; maybe moving to a new town or state would offer you a better life? Recreating the magnitude of this choice in an experimental setting is difficult because where we choose to live is one of the biggest decisions we ever make in our lives.&lt;/p&gt;
@@ -298,15 +406,21 @@ Three
 
 
 
-&lt;figure &gt;
+&lt;figure id=&#34;figure-game-graphics&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/game-graphics-5.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/game-graphics-5.png&#34; data-caption=&#34;Game graphics&#34;&gt;
 
 
   &lt;img src=&#34;/media/game-graphics-5.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
+
+  
+  
+  &lt;figcaption&gt;
+    Game graphics
+  &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
@@ -331,15 +445,21 @@ Three
 
 
 
-&lt;figure &gt;
+&lt;figure id=&#34;figure-game-interface&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/game-graphics-7.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/game-graphics-7.png&#34; data-caption=&#34;Game interface&#34;&gt;
 
 
   &lt;img src=&#34;/media/game-graphics-7.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
+
+  
+  
+  &lt;figcaption&gt;
+    Game interface
+  &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
@@ -366,15 +486,21 @@ Three
 
 
 
-&lt;figure &gt;
+&lt;figure id=&#34;figure-setting-up-the-game-in-bahir-dar&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/bahir_dar1.jpeg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/bahir_dar1.jpeg&#34; data-caption=&#34;Setting up the game in Bahir Dar&#34;&gt;
 
 
   &lt;img src=&#34;/media/bahir_dar1.jpeg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
+
+  
+  
+  &lt;figcaption&gt;
+    Setting up the game in Bahir Dar
+  &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
@@ -399,21 +525,28 @@ Three
 
 
 
-&lt;figure &gt;
+&lt;figure id=&#34;figure-first-round-of-players-in-bahir-dar&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/bahir_dar3.jpeg&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/media/bahir_dar3.jpeg&#34; data-caption=&#34;First round of players in Bahir Dar&#34;&gt;
 
 
   &lt;img src=&#34;/media/bahir_dar3.jpeg&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;
 
 
+  
+  
+  &lt;figcaption&gt;
+    First round of players in Bahir Dar
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h1 id=&#34;findings&#34;&gt;Findings&lt;/h1&gt;
-&lt;p&gt;The migration game presents a reinforcement learning problem under uncertainty. Players attempt to maximize their rewards by moving between worlds, discovering over time which one best suits them. The structure of this game allows me to solve it with a &lt;em&gt;multi-armed bandit&lt;/em&gt; algorithm.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The migration game presents players with a reinforcement learning problem under uncertainty. Players attempt to maximize their rewards by moving between worlds, discovering over time which one best suits them. The structure of this game allows me to solve it with a &lt;em&gt;multi-armed bandit&lt;/em&gt; algorithm.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; These are reinforcement learning algorithms that find optimal solutions to repeated problems over time, even if they don&amp;rsquo;t have any prior information as to what the problem looks like. This makes their solutions easily interpretable to people, but also a fair comparison to human problem solving, as they face the same information constraints that people do.&lt;/p&gt;
+&lt;p&gt;I find that while multi-armed bandit algorithms and people solve the game in different ways, their outcomes are almost identical. Given nothing more than an objective, to get the highest score, both people and algorithms reach an optimal solution. To be clear, this high score is not the same one if &lt;em&gt;they started out with full information&lt;/em&gt;. But when uncertainty over the payoff to different moves is high, people appear to make the right choice over when to stay or go. This means that much of the immobility we see is not the result of barriers to migration, so much as limited information of what our lives would be like had we made different choices.&lt;/p&gt;
 
 
 
@@ -605,17 +738,6 @@ Three
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Agricultural Risk</title>
-      <link>/project/agricultural-risk/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/agricultural-risk/</guid>
-      <description>&lt;p&gt;Smallholder farmers in low-income countries depend on their crops to generate much of their yearly income and to feed their families. These farmers produce significantly less with their land and labor than their counterparts in richer countries. This is partially due to their limited investment in new technologies or complementary inputs like fertilizer. One of the reasons smallholder farmers don&amp;rsquo;t invest is because they face numerous agricultural risks from weather, disease, pests, and infrastructural failures. If their fields flood, if crop disease strikes, they lose their crops and also any investment they have made. Where farmers in high-income countries enjoy a wealth of insurance and credit products&amp;mdash;as well as government support&amp;mdash;designed to help them in the event of a negative shock. Farmers in low-income countries need equivalent support, but affordable and scalable.&lt;/p&gt;
-&lt;p&gt;My work in agriculture is focused on new technologies that help farmers better manage risk. If farmers face fewer losses they should be willing to invest more in their production, leading to higher yields and higher investment. I specifically work on the crop disease &lt;em&gt;Phytophthora infestans&lt;/em&gt;, the infamous cause of the Irish potato famine, that remains threat to farmers worldwide.&lt;/p&gt;
-&lt;p&gt;I work with potato farmers in Rangpur, northwestern Bangladesh. Using a system that combines weather station data, satellite imagery, and a crop growth model, we predict blight risk at a high geopgraphic resolution. When the risk of blight is high, we send SMS alerts to farmers telling them to spray their fields to prevent the disease.&lt;/p&gt;
 </description>
     </item>
     
